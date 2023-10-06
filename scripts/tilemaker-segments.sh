@@ -32,7 +32,6 @@ while getopts ":h" option; do
   esac
 done
 
-planet_file=$1
 epoch_time=`date +"%s"`
 
 echo "Converting segments..."
